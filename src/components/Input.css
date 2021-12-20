@@ -13,6 +13,7 @@ input {
     border: none;
     margin_left: 12px;
     flex: 1;
+    font-weight: 200;
 }
 
 input:focus {
@@ -26,4 +27,5 @@ button {
     border-radius: 10px;
     height: 30px;
     width: 50px;
+    cursor: pointer;
 }
