@@ -21,7 +21,7 @@ const Input = () => {
     return (
         <div className="input">
             <input type="text" value={input} onChange={e => setInput(e.target.value)} />
-            <button onclick={addTodo}>Add</button>
+            <button onClick={addTodo}>Add</button>
         </div>
     )
 }
